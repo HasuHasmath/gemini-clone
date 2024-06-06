@@ -17,7 +17,7 @@ import {
 } from "@google/generative-ai"
 
 // const apiKey = process.env.GEMINI_API_KEY;
-const apiKey = "AIzaSyDaubCjVAdmxfL1iRkDFuK5x42DPmp0fcc";
+const apiKey = "";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
